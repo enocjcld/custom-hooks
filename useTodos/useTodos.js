@@ -1,5 +1,5 @@
 import React, { useEffect, useReducer } from 'react'
-import { todoReducer } from "../08-useReducer/todoReducer"
+import { todoReducer } from "./todoReducer"
 
 const init = () => {
     // Retorna los objetos gardados en el localstorage del todo, si estos no existen crea un arreglo vacio
